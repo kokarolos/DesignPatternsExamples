@@ -1,0 +1,6 @@
+C:\Users\Karolos\source\repos\DesignPatternsPractice\AbstractFactoryComputers\bin\Debug\AbstractFactoryComputers.exe.config
+C:\Users\Karolos\source\repos\DesignPatternsPractice\AbstractFactoryComputers\bin\Debug\AbstractFactoryComputers.exe
+C:\Users\Karolos\source\repos\DesignPatternsPractice\AbstractFactoryComputers\bin\Debug\AbstractFactoryComputers.pdb
+C:\Users\Karolos\source\repos\DesignPatternsPractice\AbstractFactoryComputers\obj\Debug\AbstractFactoryComputers.csproj.CoreCompileInputs.cache
+C:\Users\Karolos\source\repos\DesignPatternsPractice\AbstractFactoryComputers\obj\Debug\AbstractFactoryComputers.exe
+C:\Users\Karolos\source\repos\DesignPatternsPractice\AbstractFactoryComputers\obj\Debug\AbstractFactoryComputers.pdb

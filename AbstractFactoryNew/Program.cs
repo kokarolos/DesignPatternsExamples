@@ -1,9 +1,5 @@
 ﻿using AbstractFactoryNew.Factories;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AbstractFactoryNew
 {
@@ -16,7 +12,6 @@ namespace AbstractFactoryNew
 
             var studentClient = new Client(new CasualClothFactory());
             Console.WriteLine(studentClient.DescribeYourClothes());
-
         }
     }
 }
