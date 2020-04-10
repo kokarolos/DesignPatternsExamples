@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6B36CE03-4965-4FCB-9A80-ABC97B0F2F8B}</ProjectGuid>
+    <ProjectGuid>{B9709AFD-9EB6-4CD1-B920-249B74EF103D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StrategyPattern</RootNamespace>
-    <AssemblyName>StrategyPattern</AssemblyName>
+    <RootNamespace>AbstractFactoryNew</RootNamespace>
+    <AssemblyName>AbstractFactoryNew</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractProducts\Shirt.cs" />
+    <Compile Include="AbstractProducts\Trousers.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ClothesFactory.cs" />
+    <Compile Include="Factories\CasualClothFactory.cs" />
+    <Compile Include="Factories\ElegantClothFactory.cs" />
+    <Compile Include="Products\DressShirt.cs" />
+    <Compile Include="Products\Jeans.cs" />
+    <Compile Include="Products\PoloShirt.cs" />
+    <Compile Include="Products\SuitTrousers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TravelerPlanner.cs" />
-    <Compile Include="TravellingStrategies\Bus.cs" />
-    <Compile Include="TravellingStrategies\Car.cs" />
-    <Compile Include="TravellingStrategies\Plane.cs" />
-    <Compile Include="TravellingStrategies\TravelStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
