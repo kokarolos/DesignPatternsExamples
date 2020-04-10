@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StrategyPattern.TravellingStrategies;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace StrategyPattern
     {
         static void Main(string[] args)
         {
+            TravelerPlanner travelerPlanner = new TravelerPlanner();
+            travelerPlanner.SetTravelStrategy(new Car());
+            travelerPlanner.Drive(100);
         }
     }
 }

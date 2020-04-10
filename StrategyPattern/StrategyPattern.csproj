@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TravelerPlanner.cs" />
+    <Compile Include="TravellingStrategies\Bus.cs" />
+    <Compile Include="TravellingStrategies\Car.cs" />
+    <Compile Include="TravellingStrategies\Plane.cs" />
+    <Compile Include="TravelStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
