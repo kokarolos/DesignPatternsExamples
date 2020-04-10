@@ -5,5 +5,6 @@ namespace AbstractFactoryComputers
     public abstract class ComputerFactory 
     {
         public abstract IProduct GenerateProduct(string product);
+
     }
 }

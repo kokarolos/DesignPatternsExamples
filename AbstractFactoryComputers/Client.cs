@@ -6,9 +6,19 @@ namespace AbstractFactoryComputers
     public class Client
     {
         private IProduct _product;
-        public Client(ComputerFactory factory,string userInput)
+        private ComputerFactory factory;
+
+        public Client(string factoryInput,string productInput)
         {
-            _product = factory.GenerateProduct(userInput);
+            if (factoryInput == "dell")
+            {
+                factory = new DellFactory();
+            }
+            else
+            {
+                factory = new MacFactory();
+            }
+            _product = factory.GenerateProduct(productInput);
         }
 
 
