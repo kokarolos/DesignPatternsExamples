@@ -1,0 +1,7 @@
+C:\Users\Karolos\source\repos\DesignPatternsPractice\ObserverPattern\bin\Debug\ObserverPattern.exe.config
+C:\Users\Karolos\source\repos\DesignPatternsPractice\ObserverPattern\bin\Debug\ObserverPattern.exe
+C:\Users\Karolos\source\repos\DesignPatternsPractice\ObserverPattern\bin\Debug\ObserverPattern.pdb
+C:\Users\Karolos\source\repos\DesignPatternsPractice\ObserverPattern\obj\Debug\ObserverPattern.csproj.CoreCompileInputs.cache
+C:\Users\Karolos\source\repos\DesignPatternsPractice\ObserverPattern\obj\Debug\ObserverPattern.exe
+C:\Users\Karolos\source\repos\DesignPatternsPractice\ObserverPattern\obj\Debug\ObserverPattern.pdb
+C:\Users\Karolos\source\repos\DesignPatternsPractice\ObserverPattern\obj\Debug\ObserverPattern.csprojAssemblyReference.cache

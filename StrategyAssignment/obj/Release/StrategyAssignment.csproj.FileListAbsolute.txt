@@ -1,0 +1,6 @@
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\bin\Release\StrategyAssignment.exe.config
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\bin\Release\StrategyAssignment.exe
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\bin\Release\StrategyAssignment.pdb
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\obj\Release\StrategyAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\obj\Release\StrategyAssignment.exe
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\obj\Release\StrategyAssignment.pdb

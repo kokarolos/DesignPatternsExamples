@@ -1,0 +1,13 @@
+C:\Users\Karolos\source\repos\StrategyScenario-master\StrategyAssignment\bin\Debug\StrategyAssignment.exe.config
+C:\Users\Karolos\source\repos\StrategyScenario-master\StrategyAssignment\bin\Debug\StrategyAssignment.exe
+C:\Users\Karolos\source\repos\StrategyScenario-master\StrategyAssignment\bin\Debug\StrategyAssignment.pdb
+C:\Users\Karolos\source\repos\StrategyScenario-master\StrategyAssignment\obj\Debug\StrategyAssignment.csprojAssemblyReference.cache
+C:\Users\Karolos\source\repos\StrategyScenario-master\StrategyAssignment\obj\Debug\StrategyAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Karolos\source\repos\StrategyScenario-master\StrategyAssignment\obj\Debug\StrategyAssignment.exe
+C:\Users\Karolos\source\repos\StrategyScenario-master\StrategyAssignment\obj\Debug\StrategyAssignment.pdb
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\bin\Debug\StrategyAssignment.exe.config
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\bin\Debug\StrategyAssignment.exe
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\bin\Debug\StrategyAssignment.pdb
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\obj\Debug\StrategyAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\obj\Debug\StrategyAssignment.exe
+C:\Users\Karolos\source\repos\StrategyAssignment\StrategyAssignment\obj\Debug\StrategyAssignment.pdb

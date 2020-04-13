@@ -7,7 +7,6 @@ namespace AbstractFactoryComputers
     {
         private IProduct _product;
         private ComputerFactory factory;
-
         public Client(string factoryInput,string productInput)
         {
             if (factoryInput == "dell")
