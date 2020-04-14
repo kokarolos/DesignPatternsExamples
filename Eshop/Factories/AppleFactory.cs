@@ -1,4 +1,6 @@
-﻿public class AppleFactory : SmarthPhoneFactory
+﻿using Eshop.ConcreteProducts;
+
+public class AppleFactory : SmarthPhoneFactory
 {
     public override IProduct CreateSmartPhone(string smartphone)
     {
@@ -7,7 +9,7 @@
             case "IphoneX":
                 return new IPhoneX();
             default:
-                return null;
+                return new IPhone10();
         }
     }
 }
