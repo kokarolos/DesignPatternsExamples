@@ -6,7 +6,7 @@ namespace Eshop
     {
         public override void Pay(IProduct product)
         {
-            Console.WriteLine($"Succcessfuly purchased :{product.Model} with id {product.Id}");
+            Console.WriteLine($"Succcessfuly purchased :{product.GetType().Name}");
         }
     }
 }

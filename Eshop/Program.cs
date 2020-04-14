@@ -14,13 +14,13 @@ namespace Eshop
             var basket = new Basket();
             Customer c1 = new Customer { Id = 1, Email = "karol@koniewicz.com", FirstName = "Karol", LastName = "Koniewicz", Founds = 20000 };
             Customer c2 = new Customer { Id = 2, Email = "sofia@koniewicz.com", FirstName = "Sofia", LastName = "Panta", Founds = 25000 };
-            var iPhone = new IPhone();
-            c1.AddToBasket(iPhone);
             eshop.RegisterCustomer(c1);
             eshop.RegisterCustomer(c2);
             eshop.SetPaymentMethod(c1, 1);
             c1.GetCustomerInfo();
             eshop.Checkout(c1);
+            eshop.PrieviewAllCustomers();
+
         }
     }
 
@@ -32,7 +32,10 @@ namespace Eshop
 
         public Eshop()
         {
-            _products = new List<IProduct>();
+            _products = new List<IProduct>()
+            {
+
+            };
             _customers = new List<Customer>();
             _basket = new Basket();
         }
@@ -82,19 +85,14 @@ namespace Eshop
     }
     public sealed class Basket
     {
-        private List<IProduct> _products;
+        //public List<IProduct> _products=new List<IProduct>();
         public decimal TotalCost { get; set; }
 
         public Basket()
         {
-            _products = new List<IProduct>()
-            {
-                new IPhone(),
-                new Samsung()
-            };
+
         }
 
         public bool IsAffordable(Customer customer) => customer.Founds >= TotalCost;
-
     }
 }

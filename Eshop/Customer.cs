@@ -22,7 +22,8 @@ namespace Eshop
         }
         public void AddToBasket(IProduct product)
         {
-            _basket.TotalCost += product.GetPrice();
+        //    _basket._products.Add(product);
+        //    _basket.TotalCost += product.GetPrice();
         }
 
     }
