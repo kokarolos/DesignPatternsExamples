@@ -10,20 +10,25 @@ namespace Eshop
         public string LastName { get; set; }
         public decimal Founds { get; set; }
         public PaymentMethod _paymentMethod { get; set; }
-        private Basket _basket;
+        public Basket _basket { get; set; }
+
         public Customer()
         {
             _basket = new Basket();
         }
 
+        //Customer Brief 
         public void GetCustomerInfo()
         {
             Console.WriteLine($"Customer {FirstName} {LastName} has {Founds} available and setted Payment Method to {_paymentMethod.GetType().Name}");
         }
-        public void AddToBasket(IProduct product)
+        public void AddToBasket(Eshop eshop,IProduct product)
         {
-        //    _basket._products.Add(product);
-        //    _basket.TotalCost += product.GetPrice();
+            if(eshop.Products.Contains(product))
+            {
+                _basket.CustomerProducts.Add(product);
+                _basket.TotalCost += product.GetPrice();
+            }
         }
 
     }

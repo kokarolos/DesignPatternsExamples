@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basket.cs" />
     <Compile Include="ConcreteProducts\IPhone10.cs" />
     <Compile Include="ConcreteProducts\Note10.cs" />
+    <Compile Include="Eshop.cs" />
     <Compile Include="Factories\AppleFactory.cs" />
-    <Compile Include="Client.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="AbstractProducts\Enumerations.cs" />
     <Compile Include="AbstractProducts\IBrand.cs" />

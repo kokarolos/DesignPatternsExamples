@@ -12,6 +12,7 @@ namespace Eshop.ConcreteProducts
         public string GetModel() => Enumerations.Models.Note10.ToString();
         public string GetProcessor() => Enumerations.Processors.SnapDragon865.ToString();
         public string GetRam() => Enumerations.Rams.High.ToString();
+        public decimal GetPrice() => 940M;
 
     }
 }

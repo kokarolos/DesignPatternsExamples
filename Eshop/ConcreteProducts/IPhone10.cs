@@ -12,5 +12,6 @@ namespace Eshop.ConcreteProducts
         public string GetProcessor() => Enumerations.Processors.A12.ToString();
         public string GetRam() => Enumerations.Rams.Medium.ToString();
         public string GetModel() => Enumerations.Models.IPhone10.ToString();
+        public decimal GetPrice() => 1090M;
     }
 }
